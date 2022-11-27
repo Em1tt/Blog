@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Em1t | Blogy</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/blogy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,900;1,400;1,600;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <nav>
+        <span class="col-change"></span>
+        <div>
+            <a href="/" class="logo-wrapper"><img height="30px" src="./images/E1-light.png">
+                <p>Blog-Marcinčák</p>
+            </a>
+            <span class="url-wrapper hide-on-mobile">
+                <span class="hide-on-desktop">
+                    <a href="/" class="logo-wrapper"><img height="30px" src="./images/E1-dark.png">
+                        <p>Blog-Marcinčák</p>
+                    </a>
+                    <button class="hide-on-desktop nav-controller">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+
+                    </button>
+                </span>
+                <a href="/">Domov</a>
+                <a href="/o-mne.html">O mne</a>
+                <a href="/kamarati.html">Kamaráti</a>
+                <a href="/rebricek.html">Rebríček</a>
+                <a href="/blogy.html">Blogy</a>
+                <hr class="hide-on-desktop">
+                <a href="/kontakt.html" class="hide-on-desktop">Kontakt</a>
+            </span>
+            <div class="nav-backdrop"></div>
+            <span class="misc-wrapper">
+                <a href="/kontakt.html" class="hide-on-mobile contact">Kontakt</a>
+                <button class="hide-on-desktop nav-controller">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </span>
+        </div>
+    </nav>
+    <video autoplay muted loop id="myVideo">
+        <source src="./videos/Tarkov.webm">
+    </video>
+    <header>
+        <span class="breadcrumb">
+            <a href="/">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                    <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+                    <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+                </svg>
+                Domov
+            </a>
+            <p> / </p>
+            <a href="/blogy.html">
+                Blogy
+            </a>
+        </span>
+        <div>
+            <div>
+                <h1>Blogy a novinky</h1>
+                <p>O hrách, herných udalostiach a veľa iných vecí</p>
+            </div>
+        </div>
+    </header>
+    <section class="articles">
+        <div>
+            <a class="article main" href="blogy/streets-of-tarkov-teaser.html">
+                <h2>Streets of Tarkov Teaser #5</h2>
+                <p>Escape from Tarkov | 26.11.2022</p>
+                <p>Nové teasery na mapu Streets of Tarkov boli odhalené. Pozrite si čo pre Vás Battlestate Games pripravili dnes...</p>
+            </a>
+            <a href="blogy/steam-black-friday.html" class="article submain">
+                <h2>Black Friday zľavy</h2>
+                <p>Steam | 26.11.2022</p>
+                <p>Zľavy na hry rôzných žánrov od 15% do 75% práve nájdete na Steame. POZOR: Platí len do pondelka!</p>
+            </a>
+            <a class="article second" href="blogy/stress-test.html">
+                <h2>Stress Test Serverov</h2>
+                <p>BattleBit Remastered | 3.12.2022</p>
+                <p>Stress Test serverov bude v nedeľu, 3. Decembra! Všetky novinky zo stress testu zverejníme tu. Dôležité info, a čas, kedy budú servery zapnuté nájdete dole.</p>
+            </a>
+            <a class="article third" href="blogy/prison-architect.html">
+                <h2>Nové DLC Future Tech a The Slam</h2>
+                <p>Prison Architect | 22.11.2022</p>
+                <p>Future Tech je prémiové DLC, kým The Slam je bezplatný update na túto jedinečnú hru, v ktorej musíte postaviť väzenie pre nezbelých väzňov.</p>
+            </a>
+            <a class="article more" href="blogy/bethesda-drama.html">
+                <h2>Dráma v Bethesda Games</h2>
+                <p>Prison Architect | 12.11.2022</p>
+                <p>Dráma není ako dráma. Bethesda Games, tvorcovia série Fallout čelia kritike na sociálných médiach po tom, čo...</p>
+            </a>
+        </div>
+    </section>
+    <!--IDK WHAT IS HAPPENING HERE.-->
+    <footer>
+        <p>Richard Marcinčák | 2022</p>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
