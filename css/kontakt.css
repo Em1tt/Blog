@@ -41,6 +41,7 @@ nav{
 
 nav.active{
     backdrop-filter: brightness(0.8) blur(20px);
+    -webkit-backdrop-filter: brightness(0.8) blur(20px);
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 nav > div{
